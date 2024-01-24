@@ -1,0 +1,117 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .home-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  .home-navbar h1 {
+    color: #fff;
+  }
+  .home-navbar li{
+    list-style: none;
+  }
+  .home-navbar a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    }
+    .home-navbar a:hover{
+      color: #ffcc00; 
+
+    }
+  .home-link-style {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-link-style ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-link-style li {
+    margin-left: 1rem;
+  }
+  
+  .home-link-style a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .home-link-style a:hover {
+    color: #ffcc00; 
+  }
+
+
+  .home-background-image {
+    width: 100%;
+    height: 91vh;
+    overflow: hidden;
+  }
+  
+  .home-background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+
+.home-background-image {
+    width: 100%;
+    height: 91vh;
+    position: relative;
+  }
+  
+  .welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.welcome-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.welcome-message-box {
+  padding: 20px;
+  color: #fff; 
+  border-radius: 10px; 
+}
+
+.animated {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

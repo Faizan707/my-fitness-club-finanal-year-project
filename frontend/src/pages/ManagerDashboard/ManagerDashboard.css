@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.manager-dashboard-navbar {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 20px;
+}
+.manager-dashboard-navbar h1{
+  color: white;
+}
+.manager-dashboard-navbar button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.registration-form {
+  margin-top: 20px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.registration-form   button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.registration-form   button:hover {
+  background-color: #45a049;
+}
+.manager-dashboard-content button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.customer-list-container {
+  margin-top: 20px;
+}
+
+.customer-list-container h2 {
+  font-size: 1.5rem;
+}
+
+.customer-list-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customer-list-table th, .customer-list-table td {
+  border: 1px solid #45a049;
+  padding: 8px;
+  text-align: left;
+}
+
+.customer-list-table th {
+  background-color: #4caf50;
+}
+
+.customer-list-actions button {
+  margin-right: 5px;
+}
+
+.edit{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 5px ;
+}
+.delete{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+ .workout-button  {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.assistant-manager-button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px; 
+}
+
+.diet-plan-button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;  
+  margin-top: 5px;
+}
+.add-instructor-button,.customer-reports-button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;  
+  margin-top: 10px;
+}
+.bill-button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;  
+  margin-top: 10px;
+}
+.salary-button,.Rent-button,.profits-button,.backup-button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;  
+  margin-top: 10px;
+}
+.Buttons-container{
+  display: flex;
+  flex-wrap: wrap;
+}
